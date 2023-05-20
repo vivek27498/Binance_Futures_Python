@@ -3,8 +3,8 @@ import csv
 import time
 from binance.enums import *
 
-user_key = '57730420ff758fxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx2f0c1f2663bf5f'
-secret_key = '5270cea3b14bd9xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbfa1a79f4d8ab6aefea'
+user_key = '5xxxxxxxxxxxxxxxxxxxxxxxxxxxxx2'
+secret_key = '5d9xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbfa1ea'
 interval = 1
 symbol = "BTCUSDT"
 binance_client = Client(user_key, secret_key,base_endpoint='https://testnet.binancefuture.com/fapi/v1/order',tld='com',testnet=True)
